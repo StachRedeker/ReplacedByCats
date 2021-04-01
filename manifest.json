@@ -1,6 +1,6 @@
 {
   "name": "ReplacedByCats",
-  "version": "0.0.4",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Replaces (mostly) all images on a webpage with cats.",
   "homepage_url": "https://github.com/StachRedeker/ReplacedByCats",
