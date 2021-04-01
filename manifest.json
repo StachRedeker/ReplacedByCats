@@ -1,9 +1,9 @@
 {
   "name": "ReplacedByCats",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 2,
   "description": "Replaces (mostly) all images on a webpage with cats.",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "https://github.com/StachRedeker/ReplacedByCats",
   "icons": {
     "16": "icons/icon16.png",
     "64": "icons/icon64.png",
