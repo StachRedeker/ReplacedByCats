@@ -1,7 +1,7 @@
 {
   "name": "ReplacedByCats",
-  "version": "0.0.2",
-  "manifest_version": 3,
+  "version": "0.0.3",
+  "manifest_version": 2,
   "description": "Replaces (mostly) all images on a webpage with cats.",
   "homepage_url": "http://extensionizr.com",
   "icons": {
@@ -9,14 +9,21 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "src/inject/inject.js"
+  "browser_action": {},
+      "content_scripts": [
+          {
+              "matches": [
+                  "*://*/*"
+              ],
+              "js": [
+                  "/src/inject/inject.js"
+              ],
+              "run_at": "document_end"
+          }
       ]
-    }
-  ]
-}
+  ,
+  "background":
+  {
+    "scripts":["background.js"]
+  }
+  }
