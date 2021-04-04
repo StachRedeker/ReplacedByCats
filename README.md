@@ -1,6 +1,8 @@
 # ReplacedByCats
 > A Chrome/Firefox extension that replaces all images on a webpage with cats. Great for trolling your friends :)
 
+WARNING: ReplacedByCats is a joke. It is made to be fun and entertaining. It will probably break on 50% of the sites you are visiting.
+
 ![Demo New York Times](/Demo2.jpg)
 
 ### Installation 
